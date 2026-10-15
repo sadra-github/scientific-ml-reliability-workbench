@@ -1,0 +1,81 @@
+{
+  "test": "two_sample_kolmogorov_smirnov",
+  "correction": "Holm",
+  "alpha": 0.05,
+  "n_reference": 600,
+  "n_current": 600,
+  "n_features": 10,
+  "n_features_with_drift": 0,
+  "features": [
+    {
+      "feature": "feature_01",
+      "ks_statistic": 0.026666666666666672,
+      "p_value": 0.9834387287699125,
+      "p_adjusted": 1.0,
+      "drift_detected": false
+    },
+    {
+      "feature": "feature_02",
+      "ks_statistic": 0.053333333333333344,
+      "p_value": 0.361009298695949,
+      "p_adjusted": 1.0,
+      "drift_detected": false
+    },
+    {
+      "feature": "feature_03",
+      "ks_statistic": 0.06333333333333341,
+      "p_value": 0.18017235721663455,
+      "p_adjusted": 1.0,
+      "drift_detected": false
+    },
+    {
+      "feature": "feature_04",
+      "ks_statistic": 0.041666666666666685,
+      "p_value": 0.6753331761040919,
+      "p_adjusted": 1.0,
+      "drift_detected": false
+    },
+    {
+      "feature": "feature_05",
+      "ks_statistic": 0.046666666666666634,
+      "p_value": 0.5310820424048986,
+      "p_adjusted": 1.0,
+      "drift_detected": false
+    },
+    {
+      "feature": "feature_06",
+      "ks_statistic": 0.04000000000000001,
+      "p_value": 0.7236024681613795,
+      "p_adjusted": 1.0,
+      "drift_detected": false
+    },
+    {
+      "feature": "feature_07",
+      "ks_statistic": 0.05999999999999994,
+      "p_value": 0.23041761984981923,
+      "p_adjusted": 1.0,
+      "drift_detected": false
+    },
+    {
+      "feature": "feature_08",
+      "ks_statistic": 0.09833333333333338,
+      "p_value": 0.006017700068371347,
+      "p_adjusted": 0.06017700068371347,
+      "drift_detected": false
+    },
+    {
+      "feature": "feature_09",
+      "ks_statistic": 0.06833333333333336,
+      "p_value": 0.12140986957667256,
+      "p_adjusted": 1.0,
+      "drift_detected": false
+    },
+    {
+      "feature": "feature_10",
+      "ks_statistic": 0.05499999999999999,
+      "p_value": 0.32447657397050844,
+      "p_adjusted": 1.0,
+      "drift_detected": false
+    }
+  ]
+}
