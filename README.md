@@ -2,6 +2,8 @@
 
 A reproducible Python workbench for auditing scientific machine learning datasets, evaluating regression models, analyzing residuals, and detecting changes in numerical feature distributions.
 
+**Created by Sadreddin Saleh.** This project aims to grow into a reproducible framework and service for assessing the reliability of scientific machine learning workflows.
+
 ## Overview
 
 Scientific machine learning requires more than predictive performance. Data quality, evaluation protocols, statistical diagnostics, and reproducibility are also important when assessing model reliability.
@@ -149,6 +151,29 @@ The project records relevant runtime versions and evaluation protocol informatio
 
 Exact numerical results may vary across software versions or execution environments.
 
+## Attribution and Citation
+
+Created by **Sadreddin Saleh**.
+
+If you use this software in academic research, please cite the project and identify the version used. The `CITATION.cff` file provides citation metadata that GitHub and compatible tools can read. When publishing results, include the repository URL and, when available, a version-specific DOI.
+
+The MIT license does not itself require academic citation. It does require preservation of the applicable copyright and license notices when copies or substantial portions of the software are redistributed. Please provide clear attribution when building on this work so that others can trace the methods and implementation to the original project.
+
+## Planned Direction
+
+The longer-term goal is to develop this workbench into a broader scientific ML reliability framework and, subject to validation and implementation, an online service.
+
+Potential future capabilities include:
+
+- Uploading datasets, model predictions, and reference labels for structured reliability checks.
+- Data quality, schema, missingness, and potential leakage audits.
+- Evaluation protocols suitable for time series, grouped data, and distribution shifts.
+- Residual, calibration, robustness, and drift diagnostics where appropriate to the task.
+- Reproducible reports with recorded assumptions, configuration, software versions, warnings, and limitations.
+- An API and web interface for repeatable assessments.
+
+These are planned directions, not current capabilities. Reports should clearly distinguish observed results from warnings and should never claim that a model is universally reliable based on a single test.
+
 ## Development Status
 
 **Version:** 0.1.0
@@ -159,4 +184,6 @@ Further development can extend the framework with additional evaluation protocol
 
 ## License
 
-No license has been specified yet. A license should be selected and added before the project is distributed for reuse.
+This project is distributed under the [MIT License](LICENSE). You may use, modify, and redistribute the software under its terms, including commercially, provided the license conditions are met. The MIT license does not require derivatives to cite the project academically, so citation guidance is provided separately to support scholarly attribution.
+
+Before relying on the project for a scientific or operational decision, review the evaluation protocol, assumptions, and limitations of the specific version used.
